@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link} from "react-router-dom";
-import Home from './Home'
+import Home from '../Home'
 import {Routes, Route, useNavigate} from 'react-router-dom';
 import { AppBar, Toolbar, Typography, Button } from '@mui/material';
-import './App.css'
+import '../App.css'
 
 const Header = () => {
   return (
+    <>
     <AppBar  className='header'>
       <Toolbar className='leftHeader'>
         <Typography variant="h5" component="div" sx={{ flexGrow: 1 }}>
@@ -19,22 +20,8 @@ const Header = () => {
         </div>
       </Toolbar>
     </AppBar>
+    </>
   );
 };
 
 export default Header;
-
-// import Home from './Home'
-// import Button from '@mui/material/Button';
-// import {Routes, Route, useNavigate} from 'react-router-dom';
-
-// import { Link} from "react-router-dom";
-
-// export default function Header() {
-//   return (
-//       <header className='header'>
-//       <Button><Link to="/">HOME</Link></Button>
-//       <Button><Link to="/FileUpload">upload file</Link></Button>
-//     </header>
-//   );
-// }

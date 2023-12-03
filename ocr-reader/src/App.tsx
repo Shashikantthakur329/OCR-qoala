@@ -3,8 +3,10 @@
 import './App.css'
 import {Routes, Route, useNavigate} from 'react-router-dom';
 
-import FileUpload from './FileUpload'
+import FileUpload from './screens/FileUpload'
 import Home from './Home';
+import Header from './components/Header';
+{/* <Header></Header>  */}
 
 function App() {
   return (

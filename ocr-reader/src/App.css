@@ -1,15 +1,9 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
+
 body {
-  /* max-width: 1280px; */
-  margin: 0 auto;
-  padding: 2rem;
-  /* text-align: center; */
-  width: 100%;
-  background-color: aliceblue;
+  background-color: white;
   color: black;
-}
-.rightHeader{
-  padding-right: 25%;
-  align-items:start !important;
 }
 
 .header{
@@ -17,27 +11,16 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgb(7, 8, 8); 
-  
+}
+.rightHeader{
+  padding-right: 25%;
+  align-items:start !important;
 }
 .leftHeader{
   padding-left: 25% !important;
 
 }
-.card {
-  padding: 2em;
-}
-.button{
-  /* padding-left: 100px !important; */
-}
+
 .btnLink{
   color: #ffffff;
-}
-/* .read-the-docs {
-  color: #888;
-} */
-
-.FileUpload{
-  /* color: rgb(173, 149, 149); */
-  /* background-color: rgb(102, 102, 156); */
 }
